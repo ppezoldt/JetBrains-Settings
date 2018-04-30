@@ -153,6 +153,7 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
   </action>
   <action id="NextDiff" />
+  <action id="ParameterInfo" />
   <action id="Print" />
   <action id="QuickEvaluateExpression" />
   <action id="QuickJavaDoc">
