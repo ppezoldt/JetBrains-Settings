@@ -152,6 +152,9 @@
   <action id="MembersPullUp">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="u" />
   </action>
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="m" />
+  </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
   </action>
@@ -226,6 +229,9 @@
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="s" />
+  </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
@@ -251,6 +257,10 @@
   </action>
   <action id="UML.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="shift s" />
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="shift meta s" />
   </action>
   <action id="UsageView.Remove">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta d" />
