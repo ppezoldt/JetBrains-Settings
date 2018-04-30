@@ -81,6 +81,9 @@
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="s" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="Find" />
   <action id="FindInPath" />
   <action id="FindNext">
