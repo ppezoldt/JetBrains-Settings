@@ -146,6 +146,7 @@
   <action id="GotoLine" />
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
+  <action id="GotoSuperMethod" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift button2" />
   </action>
@@ -215,6 +216,9 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RiderNuGetQuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="n" />
+  </action>
   <action id="RiderShowIncomingCalls">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
@@ -223,6 +227,9 @@
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
   </action>
   <action id="RiderUnitTestRepeatPreviousRunAction" />
+  <action id="RiderUnitTestRunSolutionAction">
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="a" />
+  </action>
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsTwAction" />
   <action id="Run">
