@@ -161,6 +161,9 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="t" />
+  </action>
   <action id="IntroduceConstant">
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="c" />
   </action>
