@@ -27,6 +27,9 @@
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="s" />
+  </action>
   <action id="ChooseDebugConfiguration" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -82,6 +85,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="meta alt left" />
@@ -213,6 +217,7 @@
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="Rerun" />
+  <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
