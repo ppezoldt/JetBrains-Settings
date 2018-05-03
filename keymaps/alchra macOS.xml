@@ -30,6 +30,7 @@
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="s" />
   </action>
+  <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta w" />
