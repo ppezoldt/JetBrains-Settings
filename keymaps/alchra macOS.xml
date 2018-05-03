@@ -85,6 +85,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="meta alt left" />
