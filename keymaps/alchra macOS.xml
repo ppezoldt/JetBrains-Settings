@@ -1,4 +1,25 @@
 <keymap version="1" name="alchra macOS" parent="Mac OS X 10.5+">
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="ActivateErrorsInSolutionToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="t" />
+  </action>
+  <action id="ActivateUnitTestsToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta j" />
@@ -44,6 +65,7 @@
   </action>
   <action id="Debugger.MarkObject" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -80,7 +102,11 @@
   <action id="ExtractSuperclass">
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="s" />
   </action>
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="Find" />
   <action id="FindInPath" />
   <action id="FindNext">
@@ -120,6 +146,7 @@
   <action id="GotoLine" />
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
+  <action id="GotoSuperMethod" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift button2" />
   </action>
@@ -148,6 +175,9 @@
   </action>
   <action id="MembersPullUp">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="u" />
+  </action>
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="m" />
   </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
@@ -186,6 +216,9 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RiderNuGetQuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="n" />
+  </action>
   <action id="RiderShowIncomingCalls">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
@@ -194,6 +227,9 @@
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
   </action>
   <action id="RiderUnitTestRepeatPreviousRunAction" />
+  <action id="RiderUnitTestRunSolutionAction">
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="a" />
+  </action>
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsTwAction" />
   <action id="Run">
@@ -223,6 +259,9 @@
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="s" />
+  </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
@@ -240,7 +279,7 @@
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="h" />
   </action>
   <action id="UML.ApplyCurrentLayout" />
   <action id="UML.ZoomIn">
@@ -248,6 +287,10 @@
   </action>
   <action id="UML.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="shift s" />
+    <keyboard-shortcut first-keystroke="meta m" second-keystroke="shift meta s" />
   </action>
   <action id="UsageView.Remove">
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta d" />
