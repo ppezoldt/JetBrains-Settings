@@ -37,6 +37,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -263,6 +266,9 @@
   </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta m" second-keystroke="s" />
