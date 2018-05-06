@@ -113,8 +113,6 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
-  <action id="Find" />
-  <action id="FindInPath" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -230,10 +228,10 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta f" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta f" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="Rerun" />
   <action id="RestoreDefaultLayout" />
