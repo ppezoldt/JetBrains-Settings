@@ -261,10 +261,9 @@
     <keyboard-shortcut first-keystroke="alt delete" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="l" />
   </action>
-  <action id="SavaAs" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta t" />
