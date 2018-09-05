@@ -243,6 +243,7 @@
   <action id="RiderNuGetQuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta m" second-keystroke="n" />
   </action>
+  <action id="RiderOpenSolution" />
   <action id="RiderShowIncomingCalls">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
