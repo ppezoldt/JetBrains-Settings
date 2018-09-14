@@ -137,8 +137,8 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="shift f12" />
-    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -206,8 +206,8 @@
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
   <action id="ReSharperGotoImplementation">
-    <mouse-shortcut keystroke="meta button1" />
-    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="shift f12" />
+    <mouse-shortcut keystroke="shift meta button1" />
   </action>
   <action id="ReSharperMoveStatementLeft">
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
@@ -289,11 +289,8 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta m" second-keystroke="s" />
   </action>
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f6" />
-  </action>
   <action id="StepOut">
-    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
