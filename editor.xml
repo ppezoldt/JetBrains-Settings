@@ -1,0 +1,6 @@
+<application>
+  <component name="TodoConfiguration">
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+  </component>
+</application>
