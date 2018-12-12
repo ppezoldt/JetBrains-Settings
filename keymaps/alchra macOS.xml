@@ -144,7 +144,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
-  <action id="GotoImplementation" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
