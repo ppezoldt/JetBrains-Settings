@@ -12,5 +12,6 @@
     <entry key="ide.mac.file.chooser.native" value="false" />
     <entry key="actionSystem.fix.alt.gr" value="false" />
     <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
+    <entry key="rider.enable.designer.winForms" value="false" />
   </component>
 </application>
