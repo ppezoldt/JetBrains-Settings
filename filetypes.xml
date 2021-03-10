@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="tsp_6_1" type="AUTO_DETECTED" />
       <mapping pattern="example" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
